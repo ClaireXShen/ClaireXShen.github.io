@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Claire Shen - Work</title>
+    <link rel="stylesheet" href="../../projects/service/ServiceStyle.css">
+    <style>
+        @font-face {
+          font-family: 'Montserrat';
+          src: url('../../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+          font-weight: normal;
+          font-style: normal;
+        }
+        body {
+          font-family: 'Montserrat', sans-serif;
+        }
+      </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../work.html" class="active">Work</a></li>
+            <li><a href="../../about.html">About</a></li>
+        </ul>
+    </nav>
+   
+    <!-- 介绍区域 -->
+    <div class="intro">
+        <h1>Service Management System</h1>
+        <div class="decoration-line"></div>
+        <p>As a service integrator, the Service Management System is tasked with managing and facilitating access to both internal and external services. This involves overseeing the unified service provider management process, which includes admission and review procedures for service providers. Additionally, the system is responsible for developing and implementing service ingress and egress specifications to ensure that service delivery is efficient and effective. Its ultimate goal is to provide stable and reliable service data that can support the basic operations of both products and users.</p>
+        <p>Role: UX designer</p>
+        <p>Duration: 8 weeks</p>
+        <p>Goal:</p>
+        <div class="lists">
+        <li>Formulate specifications for accessing and invoking our services, optimize our background management processes to increase efficiency, and lower maintenance expenses.</li>
+        <li>Take the expandability of design into account, as additional functions might be added due to business expansion.</li>
+        <li>Prioritize the needs of our maintenance staff.</li>
+        </div>
+    </div>
+
+    <!-- 正文区域 -->
+    <div class="article">
+      <h2>Design Process Overview</h2>
+        <img src="01.png">
+      <p>As a UX designer joined the team in middle of the project, our design process began with a backgournd study, including the people, the objectives and what has been done. Followed by that, we further investigated into the existing systems that have familiar goals that aim to organize a large amount of data and build things with that. This is to understand what interaction our target users are familiar to in such a complex system.</p>
+      <h2>Discover: The Background</h2>
+      <p>The kick-off meeting was taken together by the product manager, UX designers, and developers. Before the meeting, UX designers have analysed the product and listed several questions, as well as the usability problems we considered rather vital to be improved. With the list, we were able to understand the project better by checking the design priority and feasibility with other team members line by line.</p>
+      <p>The goal of the kick-off meeting is to ensure that everyone is on the same page of the project. Apart from the introduction to the circumstances, we also made a shared knowledge on the objectives and deliverables, the responsibilities of each team members, and the criteria that can measure our achievement. We further concluded a conceptual model to define the feature of the product.</p>
+      <img src="02.png">
+      <h2>Review: Existing Works</h2>
+      <p>One of the biggest challenges UX designers face in this project is translating business value into the user experience. The design should adapt to the whole system rather than propose a solution for a single scenario. User researchers and UX designers have fewer opportunities to talk to users than the usual design process we're used to. Therefore, beforehand we must have a fairly comprehensive understanding of the existing system, which is critical for us to anticipate demand and control overall availability and consistency.</p>
+      <li><b style="font-weight: bolder; text-decoration: underline;">Aim of existing system review</b>: Understand the frames and interactions that would be reasonable enough to guide the further design by reviewing existing systems.</li>
+      <li><b style="font-weight: bolder; text-decoration: underline;">Target Users</b>: Staff from both WASU and service providers, including business analysts and software engineers.</li>
+      <li><b style="font-weight: bolder; text-decoration: underline;">Goal</b>: To ensure efficient business connection and stable operation.</li>
+      <li><b style="font-weight: bolder; text-decoration: underline;">Device</b>: Web</li>
+      <h3>Definition of Service Management System:</h3>
+      <li>Web-based platform for managing and facilitating access to both internal and external services, such as admission and review procedures for service providers, as well as formulating entry and exit rules to ensure the stability of service data.</li>
+      <li>Characteristics: low threshold, high efficiency, and ease of operation, allowing for seamless publishing, viewing, and management of data, as well as ensuring timely project delivery while being easy to preview and maintain.</li>
+      <h3>Gain insight into user scenario</h3>
+      <figure>
+        <img src="03.png">
+        <figcaption>Brief description of user scenarios</figcaption>
+      </figure>  
+      <h3>Reviewing existing works</h3>
+      <p>According to the definition, we concluded three main types of systems that would be analyse-worthy to our project:</p>
+      <div class="inline-list" style="list-style-type: decimal;">
+        <li>Data analysis tools(Same Characteristics), such as the User Data Market.</li>
+        <li>Deploy and configurations tools(Same Characteristics), such as Alibaba Cloud, and Baidu Cloud.</li>
+        <li>Assignment management tools(Same Contents), such as Ding Talk, and WASU membership platform.</li>
+      </div>
+      <p>Our goals in reviewing these three types are as follows:</p>
+      <div class="inline-list" style="list-style-type: decimal;">
+        <li>For data analysis tools, we refer to the provider's own analysis platform to facilitate familiarity with the framework and interaction logic to reduce the time to get started with our products.</li>
+        <li>For deployment and configuring tools that target the experts, we take the instructions and interfaces into account to understand the natural way of setting up complex content.</li>
+        <li>As for the assignment management tools that share similar contents with our product, we look at the way they organise the massive content.</li>
+      </div>
+        <p>Another great discover is the frame of where the users edit the contents. We analysed the pros and cons of the popular types of frames to feature the best construction for our users.</p>
+        <figure>
+          <img src="04.png">
+          <figcaption>Analysis of frame for editing</figcaption>
+        </figure>  
+        <h3>Planning on structure</h3>
+        <p>After referring to the existing solutions for service and management, we define the product architecture based on user scenarios in three aspects.</p>
+        <li>Formulating management norms that govern the access and delivery of both internal and external services. This includes developing a unified management process for service providers, which encompasses admission and review procedures.</li>
+        <li>Formulates service access and output specifications that ensure efficient and effective service delivery, such as service creation and version updates.</li>
+        <li>Reduce maintenance costs associated with service delivery. The system provides comprehensive data support for service development, testing, and online processes, such as uploading test records and viewing usage data.</li>
+        <figure>
+          <img src="05.png">
+          <figcaption>A general structure of service management system essential functions</figcaption>
+        </figure>  
+        <h3>The Framework</h3>
+        <p>As the pre-investigation came to an end, we have established the framework and interaction for the service management system and are ready to move into the design phase of the overall process. The first step in this phase was to develop a framework design that would provide a foundation for subsequent weekly-scale component designs. One of the primary challenges we faced during the creation of this framework was categorizing the various functions in a clear and concise manner so that they won't confuse the users.</p>
+        <p>In addition to addressing the organization of functions, we also considered several interaction principles in terms of visual presentation. These principles included visible states for input boxes, button hiding based on usage priority, and left-aligned text information to accommodate modern reading habits. By incorporating these principles into the design, we aimed to create an interface that was both intuitive and efficient for users to operate.</p>
+        <figure>
+          <img src="06.png">
+          <figcaption>Essential frame of the Service Management System</figcaption>
+        </figure>  
+        <h3>Components</h3>
+        <p>In the following 5 weeks, we made integration into the existing developing cycle in which producing components week by week. Base on the research beforehand, the design process of each component progressed smoothly. Since the interaction style of these components is following the same tone with the framework, it didn't require considerable further investigation on each design as well. Here are some of the components, Data Present and Role Editor, we designed on a weekly basis.</p>
+        <figure>
+          <img src="07.png">
+          <figcaption>Building components for the Service Management System</figcaption>
+        </figure> 
+        <h3>Building up functions with components</h3>
+        <p>In the following design stage, we implement various strategies to improve user data processing, monitoring, and management capabilities, including highlighting abnormal data in red, using list labels, and employing a strengthened concept of member roles.</p>
+        <figure>
+          <img src="08.png">
+          <figcaption>Function design of the Service Management System</figcaption>
+        </figure> 
+        <h2>Notes</h2>
+        <p>We the UX designers worked together with the product team and development team to optimise the user experience of the web system. According to our experience, some project teams only realise their need for UX designers during the halfway of product development.  Interestingly, in this project, we were asked to cooperate with the development team in the middle of development and release new designs weekly. The process finally worked out well by deconstructing the whole design of the Content Tool into segments, and it kept the expandability for further features as well.</p>
+        <h2>Thanks for reading!</h2>
+    </div>
+    <div class="other-work">
+      <h1>Other works</h1>
+      <div class="cards">
+        <div class="card">
+            <li>
+            <a href="../wasu/wasu.html">
+                <img src="../../img/cover_wasu.png" alt="描述图像的文本">  
+                <h2>WASU Kids</h2>
+                <p>Free screening and an immersive exhibition inspired by Oscar Nominated film Fire of Love.</p>
+            </a>
+            </li> 
+        </div>
+        <div class="card">
+            <li>
+                <a href="../sedentary/sedentary.html">
+                <img src="../../img/cover_sedentary.png" alt="描述图像的文本">  
+                <h2>Strest</h2>
+                <p>Free screening and an immersive exhibition inspired by Oscar Nominated film Fire of Love.</p>
+            </a>
+            </li> 
+        </div>
+        <div class="card">
+            <li>
+                <a href="../kitchen/kitchen.html">
+                <img src="../../img/cover_kitchen.png" alt="描述图像的文本">  
+                <h2>Kitchic</h2>
+                <p>Free screening and an immersive exhibition inspired by Oscar Nominated film Fire of Love.</p>
+            </a>
+            </li> 
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>
+
+
+

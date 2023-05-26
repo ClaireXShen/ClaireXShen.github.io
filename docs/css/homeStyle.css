@@ -19,8 +19,11 @@ body {
 
 
 nav {
-    background-color: #0A0A0A;
-    padding: 1.5%;
+  background-color: #0A0A0A;
+  width: 100%;
+  padding: 1.5%;
+  position: fixed;
+  top: 0;
 }
 
 nav ul {
@@ -46,13 +49,23 @@ nav a.active {
 
 /* 介绍 */
 .intro {
-  background-image: url("../img/card2.png");
-  margin-top: 1%;
+  background: url("../img/bg.png") no-repeat center center;  
+  background-size: cover;
+  object-fit: cover;
+  margin-top: 4%;
   padding-top: 12%;
   padding-bottom: 2%;
   padding-left:5%;
+  color: #f6f6f6;
 }
 
+.intro h2 {
+  margin-top: 1%;
+}
+
+.intro p{
+  margin-top: 4%;
+}
 /* 卡片 */
 .cards {
   width: 90%;
@@ -105,8 +118,17 @@ nav a.active {
   color: #f6f6f6;
 }
 
+@media (max-width: 800px){
+  .card h2 {
+    font-size: 1em;
+  }
+  .card p {
+    font-size: 0.6em;
+  }
+}
+
 .card:hover img {
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .card:hover h2,
@@ -197,13 +219,7 @@ nav a.active {
     width: 10em;
     background-color: #f6f6f6;
     border-style: none;
-    padding: 0.2em;
-    text-decoration: none;
-    font-size: 0.8em;
-    font-weight: lighter;
-    text-align: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 3em;

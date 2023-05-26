@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Claire Shen - Work</title>
+    <link rel="stylesheet" href="../../projects/sedentary/SedentaryStyle.css">
+    <style>
+        @font-face {
+          font-family: 'Montserrat';
+          src: url('../../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+          font-weight: normal;
+          font-style: normal;
+        }
+        body {
+          font-family: 'Montserrat', sans-serif;
+        }
+      </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../work.html" class="active">Work</a></li>
+            <li><a href="../../about.html">About</a></li>
+        </ul>
+    </nav>
+   
+    <!-- 介绍区域 -->
+    <div class="intro">
+        <h1>Strest</h1>
+        <div class="decoration-line"></div>
+        <p>Strest is an interdisciplinary innovative research that integrates insights from behavioural science with cutting-edge mobile technology to address the issue of sedentary behaviour, which has been linked to deadly diseases. Our target users are office workers who spend almost the whole day sitting. This project offers a unique and effective solution to this growing health concern. Users can benefit from the application of behavioural science theory, which has been used to design the product's features and functions to promote more active behaviour.</p>
+        <p>Role: UX Designer / Researcher / Developer</p>
+        <p>Duration: 15 weeks</p>
+        <p>* This project is part of my dissertation for a master's degree in Human-Computer Interaction at the University of Birmingham, and I was awarded a distinction in this module.</p>
+    </div>
+
+    <!-- 正文区域 -->
+    <div class="article">
+      <h2>Research Process Overview</h2>
+      <h3>Project Intro</h3>
+      <p>This is a Human-computer Interaction(HCI) research project. Similar to UX design projects in enterprises, it entails integrating technical resources, analyzing product architecture and user requirements, and generating appropriate solutions for products and interactions. But the difference is that the project emphasizes academic resources. The project aims to showcase the social value of academic achievements from multi disciplines and improve human life, which is the main purpose of the HCI discipline.</p>
+      <img src="01.png">
+      <h2>Discover: Academic Insights</h2>
+      <h3>Research Background</h3>
+      <p>Prolonged sitting has been identified as a new form of chronic disease, with physical inactivity contributing to 3.2 million deaths annually worldwide. The sedentary nature of modern life is particularly evident in the workplace, where office workers spend an average of 71% of their working hours in a seated position. In response to this growing health concern, researchers have turned to mobile technology as a potential solution. Recent studies have suggested that mobile techniques designed with behaviour change theories may be more effective in promoting healthy behaviours than those that are not theory-based. As such, developing a mobile health application based on behaviour change theories (BCT) that specifically targets sedentary behaviour in the workplace is a necessary step in addressing this issue.</p>
+      <h3>Literature Review</h3>
+      <p><b style="font-style: italic; font-weight: bolder; text-decoration: underline;">Mobile technology </b> has been leveraged by computer scientists to address the issue of physical inactivity. This approach offers a cost-effective means of promoting a healthy lifestyle. Some interventions require wearable devices for data acquisition, while others are mobile applications for reminders. However, a significant proportion (39%) of mobile health applications are uninstalled by users after being used less than ten times. This is due to two main reasons:</p>
+      <div class="inline-list" style="font-weight: bolder; font-style: italic;">
+        <li>The absence of theoretical grounding for health applications may undermine their efficacy.</li>
+        <li>Wearable devices incompatible with office settings.</li>
+      </div>
+      <figure>
+        <img src="02.png">
+        <figcaption>Mobile application paired with a knee-worn data acquisition device</figcaption>
+      </figure>  
+      <p><b style="font-style: italic; font-weight: bolder; text-decoration: underline;">Psychologists </b> have done a lot of research on behavioural interventions. Transtheoretical Model points out the stages of behaviour change, and Self-Regulation Theories emphasise the rationality of goals. Precede-Proceed Model focuses on reinforcement, the Social Learning Theory stress imitating self or others' behaviour, and the Health Belief Model is concerned with motivation and belief. It is necessary to validate and test the aforementioned theory in an office setting, because</p>
+      <div class="inline-list" style="font-weight: bolder; font-style: italic;">
+        <li>The experimental findings may not directly address the issue of sedentary behaviour among our intended users.</li>
+      </div>
+      <p><b style="font-style: italic; font-weight: bolder; text-decoration: underline;">Research Idea </b>: to develop a mobile application rooted in behavioural science for sedentary intervention. The primary work is to effectively integrate academic theories into product interaction, which involves understanding users, analysing product architecture, interface design, technical implementation, and for sure, interdisciplinary collaboration.</p>
+      <h2>Define: Business Insights</h2>
+      <p>Once the research direction is established, it's important to identify gaps in the market, learn from competitors, and understand user needs and product boundaries. Analyzing existing products is a key step in this process, as it help create a unique and innovative product that caters to the needs of users and stands out in the market.</p>
+      <h3>Product Analysis</h3>
+      <p>Upon examining several products with the highest usage rates currently, it has been discovered that the fundamental framework of applications designed to combat sedentary behaviour, whether on a computer or mobile device, is centered around a reminder system. This usage cycle encompasses three fundamental steps: <b style="font-weight: bolder; font-style: italic;">Timer - Alert - Break</b>. Any additional features are merely meant to enhance the user experience during each step. For instance, the timer takes into account the user's schedule, while the reminder employs a progressive interface or offers stretch guidance during resting periods. Following is the product analysis based on the essential steps.</p>
+      <figure>
+        <img src="03.png">
+        <figcaption>Analyings existing products</figcaption>
+      </figure> 
+      <p>Regarding the user response after the reminder is triggered, some apps offer only the option to "go to rest," while others provide the option to "skip" button. The Skip option resolved the conflict if the user had already taken a break before the alert. It appears to improve the flexibility of the product. However, based on feedback from actual users, there are instances where users unconsciously click "Skip," rendering the behavioural intervention ineffective. In contrast, Recess, a PC product, effectively enforces behavioural intervention by turning off the screen and forcing users to take a break. This approach ensures that the intervention is implemented and prevents the user from circumventing the system.</p>
+      <figure>
+        <img src="04.png">
+        <figcaption>Before and after a break in Recess</figcaption>
+      </figure> 
+      <h2>Develop: Generate Ideas</h2>
+      <h3>Academic Merge</h3>
+      <p>Using a reminder system to intervene in sedentary behaviour is not only low in practice cost, but also easy to accept by users. Most importantly, <b style="font-weight: bolder;font-style: italic;">almost all behavioural theories can be practiced based on the reminder system.</b> Following the establishment of the fundamental structure of the product, the subsequent consideration pertains to the manifestation of behavioral theory within the function and interface design. Systematic categorization of behavioral intervention theories into corresponding steps was undertaken subsequent to the sorting of such theories.</p>
+      <figure>
+        <img src="05.png">
+        <figcaption>The behavioural change theories and counterparted functions in product</figcaption>
+      </figure> 
+      <h3>Sketch</h3>
+      <p>After identifying the essential features, we designed the product architecture and organized them on the corresponding pages based on the timer-alert-break model mentioned before. For example, the countdown to the next break and the associated risk of sitting on the same page for long periods of time underscores the relevance of the problem and the remedy.</p>
+      <figure>
+        <img src="06.png">
+        <figcaption>The archetecture of product sketch</figcaption>
+      </figure> 
+      <h3>Testing Prototypes</h3>
+      <p>In the process of evaluating the prototype, we found some logical problems in the interaction, such as the contradiction between the whole goal duration and the single set bout. The modified scheme is therefore presented in the development results.</p>
+      <figure>
+        <img src="07.png">
+        <figcaption>The prototype of product</figcaption>
+      </figure> 
+      <h2>Deliver: Test Ideas</h2>
+      <h3>Development</h3>
+      <p>The application was created using Android Studio and the Flutter plugin, utilizing the Dart programming language. Flutter is an open-source mobile application development kit that is also written in Dart, an intuitive and user-friendly object-oriented language for UI development, similar to Javascript. Dart is compatible with both Android and iOS systems, and in Flutter, everything is represented as a widget, such as text, images, containers, or columns, making the implementation of UI elements smooth and effortless.</p>
+      <p>The core of the app is the User Class, which has a data structure containing four primary variables: mute, happy, goal, and lst (last). Mute, a boolean type, is for users to mute alerts; happy, also a boolean type, represents the feedback on goal achievement status; goal, an integer type, is used to calculate sitting time and transfer it to total seconds, while lst, a DateTime type, is used to record the start time of each sitting session. Additionally, hd_level, cs_level, and ob_level, all integer types, are designed to calculate the prevalence of different diseases. The variable today, a string type, is used to translate date time into a human-readable format.</p>
+      <p>It's worth noting that the reminder page in this study is an in-app reminder, and if the user switches to another application, the app will continue to count the time in the background, consuming a lot of memory. Therefore, this research utilizes difference calculation processing for the reminder method. The system stores the time and treats it as a flag when users commence a sitting session. When the app is running, if the difference between the current time (datetime.now) and the flag is equal to the sedentary time set by the user (datetime.now - flag = sitting session), a reminder will be sent. This design saves background resources and prevents memory overflow.</p>
+      <h3>Final solution</h3>
+      <p>Typically, users are presented with their current status and the time until their next break. Additionally, the duration of sedentary behavior is directly linked to the likelihood of corresponding diseases, thereby underscoring the negative consequences of sitting for prolonged periods and capturing users' attention.</p>
+      <p>Once the user sets the duration of the break, they can begin working. As the break approaches, a countdown will display on the screen, and the user will be required to take the break, which cannot be skipped. During this time, the app will provide suggestions for relaxing activities in the office, such as visiting the furthest printer or coffee machine. Upon completion of the break, a notification page will appear, presenting users with positive feedback.</p>
+      <img src="08.png">
+      <p>Alongside the fundamental regular reminder and break cycle, the application offers users the option to disable reminders for a specified time to avoid interrupting their work. The app also provides a wealth of suggestions for activities during breaks, including walking to other areas of the office or performing simple stretches using a chair. Additionally, the community is primarily used to disseminate articles related to healthy behaviours, thereby fostering social influence and reinforcing behavioural interventions.</p>
+      <img src="09.png">
+      <h3>Evaluating Solution</h3>
+      <p>Following the implementation of the application, the study conducted experiments to assess its effectiveness and user experience.</p>
+      <p>A complete randomized within-subjects design was utilized, with the independent variable being the usage situation (before and after using) and the dependent variable being sitting bouts. Each participant was required to record their daily sedentary status for three days before the experiment. The methodology involved recording the time between sitting down and standing up as a sitting bout. Participants were then asked to record each sitting bout during working hours for three days, and the average of these bouts was taken as the participant's baseline data.</p>
+      <p>Participants(5 students) were then asked to use the app for three consecutive days and record their sitting bouts in the same manner. After three days of use, participants were required to complete a user experience evaluation using the Mobile Application Rating Scale (uMARS).</p>
+      <figure>
+        <img src="10.png">
+        <figcaption>Statistical result of evaluation scale</figcaption>
+      </figure> 
+      <p>All subjects participating in the evaluation were interviewed, and their feedback is as follows. Firstly, participants expressed that the application has a strong starting point for addressing sedentary behavior and is committed to meeting the needs of current office workers. During the evaluation, participants' awareness of the hazards of sedentary behavior was raised. Some participants expressed a desire for more reward mechanisms and more opportunities to interact with other users. It would be interesting if social features were developed. One participant suggested that the app should include a mini-game to enhance the entertainment value of using the app. Some participants also expressed a desire to customize the sitting duration, which would be preferred by users over the current two sitting bout settings.</p>
+      <h2>Design Review</h2>
+      <p>While organizing the work, I gained a fresh perspective on the project's design and thus conducted a brief review. The following changes were made:</p>
+      <li>The bottom navigation was eliminated, and the primary functions were consolidated onto a single page, with corresponding settings located on a secondary page, such as editing the schedule. This reduces interaction on the page level, resulting in a cleaner-looking product with a lower operational threshold.</li>
+      <img src="11.png">
+      <li>Two buttons, "Skip" and "Later Remind," were added after a reminder was triggered to accommodate busy schedules and those who have already completed the task.</li>
+      <li>The interface design now features a flat style, aiming to provide users with a comfortable and relaxed experience.</li>
+      <img src="12.png">
+
+     <h2>Thanks for reading!</h2>
+    </div>
+    <div class="other-work">
+      <h1>Other works</h1>
+      <div class="cards">
+        <div class="card">
+            <li>
+            <a href="../service/service.html">
+                <img src="../../img/cover_service.png" alt="描述图像的文本">  
+                <h2>Service</h2>
+                <p>Free screening and an immersive exhibition inspired by Oscar Nominated film Fire of Love.</p>
+            </a>
+            </li> 
+        </div>
+        <div class="card">
+            <li>
+                <a href="../kitchen/kitchen.html">
+                <img src="../../img/cover_kitchen.png" alt="描述图像的文本">  
+                <h2>Kitchic</h2>
+                <p>Free screening and an immersive exhibition inspired by Oscar Nominated film Fire of Love.</p>
+            </a>
+            </li> 
+        </div>
+        <div class="card">
+            <li>
+                <a href="../psychology/psychology.html">
+                <img src="../../img/cover_psychology.png" alt="描述图像的文本">  
+                <h2>Psychology</h2>
+                <p>Free screening and an immersive exhibition inspired by Oscar Nominated film Fire of Love.</p>
+            </a>
+            </li> 
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>
+
+
+

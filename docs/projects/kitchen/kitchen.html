@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Claire Shen - Work</title>
+    <link rel="stylesheet" href="../../projects/kitchen/KitchenStyle.css">
+    <style>
+        @font-face {
+          font-family: 'Montserrat';
+          src: url('../../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+          font-weight: normal;
+          font-style: normal;
+        }
+        body {
+          font-family: 'Montserrat', sans-serif;
+        }
+      </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../work.html" class="active">Work</a></li>
+            <li><a href="../../about.html">About</a></li>
+        </ul>
+    </nav>
+   
+    <!-- 介绍区域 -->
+    <div class="intro">
+        <h1>Kitchic</h1>
+        <div class="decoration-line"></div>
+        <p>Kitchic is an IoT venture dedicated to providing a practical remedy for university students who could benefit from a kitchen assistant. Through this digital artifact, our goal is to assist novice kitchen users in reducing food waste, having a safe cooking environment, as well as achieving efficient shopping. This involves guiding them through the process of purchasing, storing, cooking, dining, and repurchasing.</p>
+        <p>Role: UX designer</p>
+        <p>Duration: 10 weeks</p>
+        <p>*The project is a part of the MSc HCI course of the University of Birmingham, which was carried out together with my four best team members with great pleasure: Vincent Mach, Xia Jin, Jingnan Liao, Jiaxin Chen.</p>
+    </div>
+
+    <!-- 正文区域 -->
+    <div class="article">
+      <h2>Design Process Overview</h2>
+        <img src="01.png">
+      <p>Our methodology for the project objective follows a double diamond structure which contains four design phases, including discover, define, develop and deliver. In the Discover phase, we observe the existing phenomenon and the state-of-the-art technology to broaden our knowledge of both our potential users and techniques to be utilised in the projects. Base on the findings from the survey, we defined the target group and gained the primary problems to form insights for the project. At the Develop phase, we generate ideas that might be able to solve the related problems of our target group and tests them with our potential users. Followed by the stage of delivering, we present an interactive prototype as a final solution to the defined problem.</p>
+      <h2>Discover: Understanding the Background</h2>
+      <p>Our goal is to provide an IoT digital kitchen assistant to help novices with any food-related problem. We first conduct an exploratory research on the related literature of food consumption and kitchen assistant to find the theme topics to focus on and the most appropriate methods to understanding users. Here are the two key themes we found:</p>
+      <p>1. Food Consumption</p>
+      <div class="inline-list">
+      <li>Food waste is a pressing global issue, particularly in British households where over 20% of the food purchased is wasted each week. To tackle this problem, the British government allocates over half a billion pounds annually towards addressing food waste.</li>
+      <li>At present, the effective solution (such as applications like Too Good To Go, and OLIO) to the problem in household is to plan the food list reasonably.</li>
+      </div>
+      <p>2. IoT Kitchen Assistant</p>
+      <li>Numerous products  (such as Alexa, Google Home, and Homepod) aim to assist users in resolving kitchen-related issues by integrating hardware and software.</li>
+      <h2>Discover: Understanding Users</h2>
+      <p>The Discover phase included three sections to understand user behaviours and thoughts, that is, questionnaires, interviews, and field observation. As the proposed work aims to explore the main issues of amateurs in the kitchen, the relevant fieldwork would be the university's dormitory kitchen and groceries around.</p>
+      <h3>Questionnaire</h3>
+      <p>We conducted a web-based questionnaire to classify our potential users and gain a more generalised understanding of their behaviour in cooking, shopping, and kitchen utilization.</p>
+      <h3>Interviews</h3>
+      <p>We designed several semi-structured interviews with students that have different dietary preferences to understand out potential uses in-depth which including the current behaviours, challenges they faced, as well as their expectation to the better dietary style.</p>
+      <h3>Field Observations</h3>
+      <p>To understand students' cooking and grocery behaviour, we take observations in the food preparation of the University dorm kitchen during lunchtime.</p>
+      <figure>
+        <img src="02.png">
+        <figcaption>The observation took place in the students' dining place.</figcaption>
+      </figure>  
+      <h3>Picks of Findings</h3>
+      <div class="inline-list">
+        <li>Participants are concerned about food wastage and want suggestions on how to use food approaching its expiration date.</li>
+        <li>Boiling water and knives are seen as common safety hazards in the kitchen, with many beginners experiencing oven burns.</li>
+        <li>Quality and freshness are top priorities for those willing to try new cuisine, followed by convenience and price.</li>
+        <li>University students are experienced with using technology for meal planning and are open to a digital solution for kitchen issues.</li>
+      </div>
+      <h2>Define: Requirements</h2>
+      <h3>Personas</h3>
+      <p>After gathering data through interviews, questionnaires, and field observations, we have identified three user personas that match our target audience based on their goals and pain points: Serina, the novice cook who struggles with organization, and Josh, the experienced learner.</p>
+     <!-- Slideshow container -->
+     <div class="slideshow-container fade">
+
+      <!-- Full images with numbers and message Info -->
+      <div class="Containers">
+        <div class="MessageInfo">1 / 2</div>
+        <img src="03.png" style="width:100%">
+      </div>
+
+      <div class="Containers">
+        <div class="MessageInfo">2 / 2</div>
+        <img src="04.png" style="width:100%">
+      </div>
+      <figcaption style="margin-top: -1em;">Personas</figcaption>
+
+      <!-- Back and forward buttons -->
+      <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <!-- The circles/dots -->
+    <div style="text-align:center">
+      <span class="dots" onclick="currentSlide(1)"></span>
+      <span class="dots" onclick="currentSlide(2)"></span>
+    </div> 
+
+    <h3>Current Situations</h3>
+    <p>We then created storyboards for each persona, such as communicating the current problems of our potential users, including the issues of food waste, safe utilisation, cooking guidance, and effective shopping.</p>
+    <figure>
+      <img src="05.jpg">
+      <img src="06.jpg">
+      <figcaption>Storyboards of current situations</figcaption>
+    </figure>
+    <h3>Summary: The Inspiration</h3>
+    <img src="07.png">
+    <h2>Ideas & Evaluation</h2>
+    <h3>Sketches</h3>
+    <p>Each of our team members was tasked with creating sketches based on the findings from Personas and Storyboards so that we could gain an understanding of each member's vision for the prototype.</p>
+    <figure>
+      <img src="08.png">
+      <figcaption>The sketch of one of our initial ideas</figcaption>
+    </figure>
+    <h2>Information Architecture</h2>
+    <p>Once we have had comments from team and users on ideas, we began the process of discussing what highlights to keep, what ideas does not yet meet the users need, and the hierarchy of the features in the design.</p>
+    <p>With the information architecture, we were more clear on where and what to show our users, and how we expect the users to reach the feature.</p>
+    <figure>
+      <img src="09.png">
+      <figcaption>The information architecture of Kitchic</figcaption>
+    </figure>
+    <h3>Testing Ideas</h3>
+    <p>We evaluated our design by creating an interactive lo-fi prototype and test them with random users to find out whether our idea is both useful and useable. We conduct usability test with several tasks under a main scenario to test if the flow of functions matches the intuition of our target users. Followed by the unstructured interview, we discovered their opinions and attitudes toward the features and the entire prototype.</p>
+    <figure>
+      <img src="10.png">
+      <figcaption>The interactive prototype for testing user flow and usability</figcaption>
+    </figure>
+    <figure>
+      <img src="11.png">
+      <figcaption>The observer's sheet from one of the usability test</figcaption>
+    </figure>
+    <h2>Final Solution</h2>
+    <div>
+      <ul style="display: flex; flex-direction: row;">
+        <img src="12.png" style="height: 30em; width: auto; border-radius: 2em; margin-right: 2em; margin-left: 1.5em;">
+        <li style="display: flex; flex-direction: column;">
+        <h3>Landing</h3>
+        <p style="margin-top: 2em;">When users access the application for the first time, they will be directed to the landing page where they can see the product name and a brief introduction. To proceed, click on the "Get Started" button which will take them to the guide page. Here, the users will be prompted to provide information about their eating habits, food allergies, and basic physical indicators. These data will be used to calculate a personalized food intake plan for the user, minimize food waste, and suggest recipes that align with their preferences.</p>
+        </li>
+      </ul>
+    </div>
+    <img src="13.png">
+    <h3>Home - Tickle on food wastage issue</h3>
+    <p>Smart meal planning and recommended intake are key to addressing the issue of food waste.</p>
+    <p>The Home page provides helpful suggestions for food storage and recipes. By scanning the barcode on food packaging, users can input information about their food into the app. The app will prioritize displaying foods that are nearing expiration on the homepage and offer recipes using those ingredients. Users are encouraged to consume these foods promptly to prevent waste. The refrigerator storage subpage allows users to view all their inventory, while the recipe subpage presents ingredient quantities based on the user's physiological indicators.</p>
+    <img src="14.png">
+    <h3>Appliance - Provide kitchen security</h3>
+    <p>Kitchen security encompasses both user safety and circuit safety.</p>
+    <p>On the Appliance page, kitchen appliances are categorized using distinct cards to differentiate between those that are in use and those that are idle. The app will send reminders and mark appliances that are powered on but not in use. After cooking, an alarm will alert until the user turns the devices off so as to avoid food burning and potential circuit hazards.</p>
+    <img src="15.png">
+    <h3>Shop - Efficient shop style</h3>
+    <p>The effectiveness of shopping is demonstrated by the prioritization of essential nutrition and the prompt delivery service provided by nearby supermarkets.</p>
+    <p>The shop page provides both nutritional suggestions and discounts for suggested food items. Additionally, it allows for direct access to the grocery delivery service, and the shopping list prioritizes the food items recommended for their nutritional value. Given that the primary users are students, who may not have easy access to nearby supermarkets, the delivery service offered can be a significant time-saver for their shopping needs.</p>
+    <img src="16.png">
+      <h2>Thanks for reading!</h2>
+    </div>
+
+    <div class="other-work">
+      <h1>Other works</h1>
+      <div class="cards">
+        <div class="card">
+            <li>
+            <a href="../sedentary/sedentary.html">
+                <img src="../../img/cover_sedentary.png" alt="描述图像的文本">  
+                <h2>Strest</h2>
+                <p>Free screening and an immersive exhibition inspired by Oscar Nominated film Fire of Love.</p>
+            </a>
+            </li> 
+        </div>
+        <div class="card">
+            <li>
+                <a href="../psychology/psychology.html">
+                <img src="../../img/cover_psychology.png" alt="描述图像的文本">  
+                <h2>Psychology</h2>
+                <p>Free screening and an immersive exhibition inspired by Oscar Nominated film Fire of Love.</p>
+            </a>
+            </li> 
+        </div>
+        <div class="card">
+            <li>
+                <a href="../crypto/crypto.html">
+                <img src="../../img/cover_crypto.png" alt="描述图像的文本">  
+                <h2>Crypto Hub</h2>
+                <p>Free screening and an immersive exhibition inspired by Oscar Nominated film Fire of Love.</p>
+            </a>
+            </li> 
+        </div>
+    </div>
+
+    </div>
+   <script src="persona.js"></script>
+</body>
+</html>
+
+
+

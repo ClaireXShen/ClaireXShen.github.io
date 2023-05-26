@@ -125,8 +125,17 @@ nav a.active {
   width: 80%;
 }
 
+@media (max-width: 800px){
+  .card h2 {
+    font-size: 1em;
+  }
+  .card-subtitle {
+    font-size: 0.6em;
+  }
+}
+
 .card:hover img {
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .card:hover h2,
@@ -145,4 +154,54 @@ nav a.active {
 .time {
   color: #f6f6f6;
   margin-left: -14%;
+}
+
+
+/* 联系方式 */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8em;
+  background-color: #171717;
+}
+.contact p {
+  font-weight: lighter;
+}
+
+.contact img {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+}
+
+.contact button {
+  cursor: pointer;
+  height: 2.6em;
+  width: 10em;
+  background-color: #f6f6f6;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  margin-bottom: 4em;
+}
+
+.contact button:hover {
+  text-decoration: underline;
+}
+
+.contact-email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #f6f6f6;
+  font-size: 1em;
+ font-weight: lighter;
+}
+
+.contact-email p {
+  margin-right: 0.4em;
 }
